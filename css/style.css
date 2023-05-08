@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+
+:root{
+    --primaryColor: #333533;
+    --secondaryColor: #F5CB5C;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styling Start */
+
+header{
+    height: 100vh;
+}
+
+.bg-color{
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    padding: 2rem 5rem;
+}
+
+.home-intro{
+    height: 70vh;
+}
+
+.home-title{
+    font-size: 8rem;
+}
+
+.home-text{
+    font-size: 1.5rem;
+}
+
+.custom-btn{
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    border: none;
+    border-radius: 10px;
+    padding: .4rem .6rem;
+}
+
+/* Header Styling */
+
+/* About Me Styling Start */
+
+
+/* About Me Styling */
+
+/* Contact */
+
+/* Contact */
+
+
+/* Footer Styling Start*/
+
+footer{
+    background-color: var(--secondaryColor);
+    position: relative;
+    bottom: 0;
+    height: 40vh;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 3rem 5rem;
+    height: 100%;
+}
+
+.footer-title{
+    grid-column: 1 / 3;
+}
+
+.sec1{
+    grid-column: 7 / 8;
+
+}
+
+.sec2{
+    grid-column: 8 / 9;
+    width: 15rem;
+}
+
+.sec3{
+    grid-column: 9 / 10;
+}
+
+.hr{
+    position: relative;
+    bottom: 7rem;
+    left: 2rem;
+    width: 70rem;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5rem;
+}
+
+.icons > i{
+    padding: 1rem;
+}
+
+/* Footer Styling */
