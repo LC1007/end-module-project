@@ -1,0 +1,77 @@
+:root{
+    --primaryColor: #333533;
+    --secondaryColor: #F5CB5C;
+}
+
+section{
+    width: 100%;
+}
+
+.line{
+    width: .6rem;
+    height: 40rem;
+    background-color: var(--primaryColor);
+    margin: auto;
+    margin-bottom: 5rem;
+    position: relative;
+    top: 7rem;
+}
+
+.circle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 99999px;
+    background-color: var(--secondaryColor);
+    position: relative;
+    left: 46.5rem;
+    bottom: 32.5rem;
+}
+
+.circle2{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 99999px;
+    background-color: var(--secondaryColor);
+    position: relative;
+    left: 46.5rem;
+    bottom: 25rem;
+}
+
+.circle3{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 99999px;
+    background-color: var(--secondaryColor);
+    position: relative;
+    left: 46.5rem;
+    bottom: 17rem;
+}
+
+.circle4{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 99999px;
+    background-color: var(--secondaryColor);
+    position: relative;
+    left: 46.5rem;
+    bottom: 10rem;
+}
+
+.life-choices{
+    position: relative;
+    left: 48.9rem;
+    bottom: 40.1rem;
+}
+
+.life-choices-para{
+    width: 40rem;
+    position: relative;
+    left: 48.9rem;
+    bottom: 40.1rem;
+}
+
+.bus{
+    position: relative;
+    left: 33.6rem;
+    bottom: 38.7rem;
+}
