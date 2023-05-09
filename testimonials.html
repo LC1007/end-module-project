@@ -12,32 +12,50 @@
 </head>
 <body>
     <header>
-        <nav class="d-flex justify-content-between bg-color">
-            <h1 class="h3">FRONT DOOR</h1>
-            <ul class="d-flex list-unstyled justify-content-center align-items-center m-0">
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="index.html"><li>home</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="about.html"><li>about me</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="education.html"><li>education and experience</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="projects.html"><li>projects</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="testimonials.html"><li>testimonials</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="contact.html"><li>contact me</li></a>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-color text-uppercase">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Front Door</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./education.html">education and experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./projects.html">projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./testimonials.html">testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">contact me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <div class="home-intro d-flex flex-column align-items-center justify-content-center">
-            <h1 class="home-title">Justin Scholtz</h1>
+            <h1 class="home-title text-capitalize">testimonials</h1>
             <p class="fw-light home-text">Aspiring Front End Developer</p>
-            <!-- <button class="custom-btn">About Me</button> -->
         </div>
     </header>
 
     <main>
-        <h1 class="text-uppercase text-center">testimonials</h1>
+        <h1 class="text-uppercase text-center" style="margin: 3rem;">testimonials</h1>
         <section class="custom-card-grid">
             <!-- <div class="custom-cards" style="width: 18rem;"> -->
                 <div class="custom-card custom-card-1" style="width: 18rem;">
                     <div class="custom-card-body">
                         <img src="https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="custom-card-img w-100" alt="">
-                        <div class="custom-card-title p-1">Student 1</div>
+                        <div class="custom-card-title p-1">Summer De Wet</div>
                         <div class="custom-card-text p-1">
                             <p>Justin is a very considerate and helpful young man who is very pleasant to work with. His energy alone is like a sudden beam of sunlight, iluminating the darkest corners of the room , adding happiness to everyones day. He is hardworking and never fails to complete any given task, and helps anyone who needs it. Having him in your workplace will be an asset because he is a  quick thinker and a very hard worker. </p>
                         </div>
@@ -46,9 +64,9 @@
                 <div class="custom-card custom-card-2" style="width: 18rem;">
                     <div class="custom-card-body">
                         <img src="https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="custom-card-img w-100" alt="">
-                        <div class="custom-card-title p-1">Student 1</div>
+                        <div class="custom-card-title p-1">Zia Khan</div>
                         <div class="custom-card-text p-1">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, minus!</p>
+                            <p>I truly admire Justins amazing work ethic and is highly skilled in what he does. When I met him, I immediately picked up that he is an intelligent person. He is great with working with his other. He's very good at problem solving and thinking creatively, he is always willing to help others and he can be super dependable. He can be very organised and shows amazing support to others.</p>
                         </div>
                     </div>
                 </div>
@@ -108,6 +126,6 @@
             <i class="fa-brands fa-instagram"></i>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

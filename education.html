@@ -12,26 +12,44 @@
 </head>
 <body>
     <header>
-        <nav class="d-flex justify-content-between bg-color">
-            <h1 class="h3">FRONT DOOR</h1>
-            <ul class="d-flex list-unstyled justify-content-center align-items-center m-0">
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="index.html" ><li>home</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="about.html"><li>about me</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="education.html"><li>education and experience</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="projects.html"><li>projects</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="testimonials.html"><li>testimonials</li></a>
-                <a class="p-2 text-decoration-none text-black text-uppercase" href="contact.html"><li>contact me</li></a>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-color text-uppercase">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Front Door</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./education.html">education and experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./projects.html">projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./testimonials.html">testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">contact me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
         <div class="home-intro d-flex flex-column align-items-center justify-content-center">
-            <h1 class="home-title text-capitalize">education and experience</h1>
+            <h1 class="home-title text-capitalize text-center">education and experience</h1>
             <p class="fw-light home-text">Aspiring Front End Developer</p>
-            <button class="custom-btn">About Me</button>
         </div>
     </header>
 
-    <section class="edu">
+    <!-- <section class="edu">
         <div class="line-circle">
             <div class="line"></div>
             <div class="circle"></div>
@@ -52,7 +70,51 @@
         <p class="school">16 - Rhodes High School</p>
         <p class="school-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero incidunt accusantium tenetur assumenda, repellat obcaecati consectetur sapiente quas fugit et aliquid quos consequatur ducimus asperiores. Fuga delectus rerum corporis?</p>
        </div>
-    </section>
+    </section> -->
+
+    <div class="custom-wrapper">
+        <div class="center-line"></div>
+        <div class="custom-row custom-row-1">
+             <section>
+                <i class="custom-icon fas fa-home"></i>
+                <div class="details">
+                    <span class="custom-title">Business Technology</span>
+                    <span>March 2023 - Novermber 2023</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magnam atque saepe vel, id, iste error repellat commodi quae eum excepturi ipsa ratione alias! Dolorem maxime omnis velit earum dicta?</p>
+             </section>
+        </div>
+        <div class="custom-row custom-row-2">
+            <section>
+                <i class="custom-icon fas fa-star"></i>
+               <div class="details">
+                   <span class="custom-title">First Technology</span>
+                   <span>March 2023 - Novermber 2023</span>
+               </div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magnam atque saepe vel, id, iste error repellat commodi quae eum excepturi ipsa ratione alias! Dolorem maxime omnis velit earum dicta?</p>
+            </section>
+       </div>
+       <div class="custom-row custom-row-1">
+        <section>
+            <i class="custom-icon fas fa-address-book"></i>
+           <div class="details">
+               <span class="custom-title">First Technology</span>
+               <span>March 2023 - Novermber 2023</span>
+           </div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magnam atque saepe vel, id, iste error repellat commodi quae eum excepturi ipsa ratione alias! Dolorem maxime omnis velit earum dicta?</p>
+        </section>
+        </div>
+        <div class="custom-row custom-row-2">
+            <section>
+                <i class="custom-icon fas fa-hand"></i>
+               <div class="details">
+                   <span class="custom-title">First Technology</span>
+                   <span>March 2023 - Novermber 2023</span>
+               </div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magnam atque saepe vel, id, iste error repellat commodi quae eum excepturi ipsa ratione alias! Dolorem maxime omnis velit earum dicta?</p>
+            </section>
+            </div>
+    </div>
 
     <footer>
         <div class="footer">
@@ -77,6 +139,6 @@
             <i class="fa-brands fa-instagram"></i>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

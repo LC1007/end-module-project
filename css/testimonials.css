@@ -10,7 +10,7 @@
     grid-template-columns: repeat(5, 2fr);
     grid-template-rows: repeat(2, 41rem);
     gap: 2rem;
-    margin: 5rem;
+    margin: 0 5rem;
 }
 
 .custom-card-1{
@@ -48,4 +48,47 @@
 
 .custom-card-text{
     background-color: var(--thirdColor);
+}
+
+@media (max-width: 426px) {
+    .custom-card-grid{
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .custom-card-4{
+        left: 0;
+    }
+
+    .custom-card-5{
+        right: 0;
+    }
+
+    .home-title{
+        font-size: 3rem;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 100svh;
+        background-color: var(--secondaryColor);
+    }
+
+    .hr{
+        display: none;
+    }
+
+    .sec1{
+        height: 14%;
+    }
+
+    .sec3{
+        margin-bottom: 3rem;
+    }
+
+    .sec1, .sec2, .sec3{
+        display: flex;
+        flex-direction: column;
+    }
 }
