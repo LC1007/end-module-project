@@ -3,6 +3,8 @@
 :root{
     --primaryColor: #333533;
     --secondaryColor: #F5CB5C;
+    --thirdColor: #E8EDDF;
+    --alternativeColor: #CBD2CE;
 }
 
 *{
@@ -13,6 +15,7 @@
 
 header{
     height: 100vh;
+    background-color: var(--alternativeColor);
 }
 
 .bg-color{
